@@ -1,0 +1,736 @@
+Project Installment # 2
+
+Author: Ali Ahmed
+Date: 05/03/2020
+
+CONSOLE OUTPUT/ TESTING RESULTS:
+
+TEST CASE 1:
+
+Filing Status (type Single or Married)?
+married
+Were you born before January 2, 1955? (Type Yes or No)
+yes
+Are you blind? Type (Yes or No)
+yes
+Spouse was you born before January 2, 1955? (Type Yes or No)
+yes
+Spouse is blind? Type (Yes or No)
+yes
+
+
+
+Please enter the following fields via keyboard.
+(1) Wages?
+200000
+(2a) Tax-Exempt Interest?
+0
+(2b) Taxable Interest?
+2000
+(3a) Qualified Dividends?
+0
+(3b) Ordinary Dividends?
+5000
+(3c) Capital Gain Distribution (or loss)?
+0
+(4a) IRAs. Pensions, & Annuities?
+0
+(5a) Social Security Benefits?
+0
+(7a) Adjustments to Income?
+9000
+
+
+
+*************************************************************************
+ Individual Income Tax Return                                     Page 2
+*************************************************************************
+
+1  Wages ...................................................... 200000
+2a Tax - Exempt Interest ....................... 0
+2b Taxable Interest ........................................... 2000
+3a Qualified Dividends ......................... 0
+3b Ordinary Dividends ......................................... 5000
+3c Capital Gain Distribution(or loss).......................... 0
+4a IRAs.Pensions, & Annuities .................. 0
+4b Taxable Amount ............................................. 0
+5a Social Security Benefits .................... 0
+5b Taxable Amount ............................................. 0
+
+6  Total Income[1 + 2b + 3b + 4b + 5b] ........................ 207000
+
+7a Adjustments to Income ....................... 9000
+7b Adjusted Gross Income(Line 6 - Line 7a) .................... 198000
+
+8  Standard Deduction ......................................... 29200
+[Single:12000; Married: 24000 or Standard Deduction Chart]
+
+10 Taxable Income.Line7b - Line8, if less than 0, enter 0 ..... 168800
+
+11 Tax ........................................................ 29091.00
+[from Tax Table or Qualified Dividends and Capital Gain Tax Worksheet]
+
+=========================================================================
+
+
+
+
+TEST CASE 2:
+
+Filing Status (type Single or Married)?
+SINGLE
+Were you born before January 2, 1955? (Type Yes or No)
+NO
+Are you blind? Type (Yes or No)
+YES
+
+
+
+Please enter the following fields via keyboard.
+(1) Wages?
+70000
+(2a) Tax-Exempt Interest?
+0
+(2b) Taxable Interest?
+100
+(3a) Qualified Dividends?
+0
+(3b) Ordinary Dividends?
+300
+(3c) Capital Gain Distribution (or loss)?
+0
+(4a) IRAs. Pensions, & Annuities?
+0
+(5a) Social Security Benefits?
+0
+(7a) Adjustments to Income?
+200
+
+
+
+*************************************************************************
+ Individual Income Tax Return                                     Page 2
+*************************************************************************
+
+1  Wages ...................................................... 70000
+2a Tax - Exempt Interest ....................... 0
+2b Taxable Interest ........................................... 100
+3a Qualified Dividends ......................... 0
+3b Ordinary Dividends ......................................... 300
+3c Capital Gain Distribution(or loss).......................... 0
+4a IRAs.Pensions, & Annuities .................. 0
+4b Taxable Amount ............................................. 0
+5a Social Security Benefits .................... 0
+5b Taxable Amount ............................................. 0
+
+6  Total Income[1 + 2b + 3b + 4b + 5b] ........................ 70400
+
+7a Adjustments to Income ....................... 200
+7b Adjusted Gross Income(Line 6 - Line 7a) .................... 70200
+
+8  Standard Deduction ......................................... 13600
+[Single:12000; Married: 24000 or Standard Deduction Chart]
+
+10 Taxable Income.Line7b - Line8, if less than 0, enter 0 ..... 56600
+
+11 Tax ........................................................ 8391.50
+[from Tax Table or Qualified Dividends and Capital Gain Tax Worksheet]
+
+=========================================================================
+
+
+
+
+
+TEST CASE 3:
+
+Filing Status (type Single or Married)?
+MARRIED
+Were you born before January 2, 1955? (Type Yes or No)
+YES
+Are you blind? Type (Yes or No)
+NO
+Spouse was you born before January 2, 1955? (Type Yes or No)
+YES
+Spouse is blind? Type (Yes or No)
+NO
+
+
+
+Please enter the following fields via keyboard.
+(1) Wages?
+500000
+(2a) Tax-Exempt Interest?
+0
+(2b) Taxable Interest?
+10000
+(3a) Qualified Dividends?
+0
+(3b) Ordinary Dividends?
+60000
+(3c) Capital Gain Distribution (or loss)?
+0
+(4a) IRAs. Pensions, & Annuities?
+0
+(5a) Social Security Benefits?
+0
+(7a) Adjustments to Income?
+8000
+
+
+
+*************************************************************************
+ Individual Income Tax Return                                     Page 2
+*************************************************************************
+
+1  Wages ...................................................... 500000
+2a Tax - Exempt Interest ....................... 0
+2b Taxable Interest ........................................... 10000
+3a Qualified Dividends ......................... 0
+3b Ordinary Dividends ......................................... 60000
+3c Capital Gain Distribution(or loss).......................... 0
+4a IRAs.Pensions, & Annuities .................. 0
+4b Taxable Amount ............................................. 0
+5a Social Security Benefits .................... 0
+5b Taxable Amount ............................................. 0
+
+6  Total Income[1 + 2b + 3b + 4b + 5b] ........................ 570000
+
+7a Adjustments to Income ....................... 8000
+7b Adjusted Gross Income(Line 6 - Line 7a) .................... 562000
+
+8  Standard Deduction ......................................... 26600
+[Single:12000; Married: 24000 or Standard Deduction Chart]
+
+10 Taxable Income.Line7b - Line8, if less than 0, enter 0 ..... 535400
+
+11 Tax ........................................................ 138769.00
+[from Tax Table or Qualified Dividends and Capital Gain Tax Worksheet]
+
+=========================================================================
+
+
+
+
+
+TEST CASE 4:
+
+Filing Status (type Single or Married)?
+MARRIED
+Were you born before January 2, 1955? (Type Yes or No)
+YES
+Are you blind? Type (Yes or No)
+NO
+Spouse was you born before January 2, 1955? (Type Yes or No)
+YES
+Spouse is blind? Type (Yes or No)
+YES
+
+
+
+Please enter the following fields via keyboard.
+(1) Wages?
+400000
+(2a) Tax-Exempt Interest?
+0
+(2b) Taxable Interest?
+20000
+(3a) Qualified Dividends?
+0
+(3b) Ordinary Dividends?
+80000
+(3c) Capital Gain Distribution (or loss)?
+0
+(4a) IRAs. Pensions, & Annuities?
+0
+(5a) Social Security Benefits?
+0
+(7a) Adjustments to Income?
+12000
+
+
+
+*************************************************************************
+ Individual Income Tax Return                                     Page 2
+*************************************************************************
+
+1  Wages ...................................................... 400000
+2a Tax - Exempt Interest ....................... 0
+2b Taxable Interest ........................................... 20000
+3a Qualified Dividends ......................... 0
+3b Ordinary Dividends ......................................... 80000
+3c Capital Gain Distribution(or loss).......................... 0
+4a IRAs.Pensions, & Annuities .................. 0
+4b Taxable Amount ............................................. 0
+5a Social Security Benefits .................... 0
+5b Taxable Amount ............................................. 0
+
+6  Total Income[1 + 2b + 3b + 4b + 5b] ........................ 500000
+
+7a Adjustments to Income ....................... 12000
+7b Adjusted Gross Income(Line 6 - Line 7a) .................... 488000
+
+8  Standard Deduction ......................................... 27900
+[Single:12000; Married: 24000 or Standard Deduction Chart]
+
+10 Taxable Income.Line7b - Line8, if less than 0, enter 0 ..... 460100
+
+11 Tax ........................................................ 112414.00
+[from Tax Table or Qualified Dividends and Capital Gain Tax Worksheet]
+
+=========================================================================
+
+
+
+
+
+C++ SOURCE CODE:
+
+
+
+#include <iostream>
+#include <string>
+#include <cstring> // ctring header used for c-string arrays.
+#include <iomanip> // iomanip manipulator header used for setw() etc
+using namespace std;
+
+// Functions for project part 2.
+double StandardDeduct(); // function prototype for line 8, Standard deduction.
+double Six(); // function prototype for line 6.
+double Seven7b(); // function prototype for line seven b 7b.
+double Ten10(); // function prototype for line 10 
+double TaxBracket(); // function prototype for line eleven to calculate TAX.
+void filingStatA2(); // functions prototype for display of page 2. 
+
+struct A2Fields {
+	double oneWages = 0, twoA = 0, twoB = 0, threeA = 0, threeB = 0, // each variable indicates the parts of second page. for Ex. oneWages = (1), twoA = 2(a) and so forth.
+		threeC = 0, fourA = 0, fourB = 0, fiveA = 0, sixTotalinc = 0, fiveB = 0,
+		sevenA = 0, eightSD = 0, Ten = 0, Eleven = 0;
+};
+
+A2Fields filingPage2; // A2Fields structure data types used to populate exhibit A2 (page 2).
+
+
+const int SIZE = 100;
+char Sbornx, Sblindx, bornx, blindx, fStatus[SIZE];//  'S' represents the'spouse'of the main filer.
+													// fStatus is used as a global variable so that it can be used in other functions.
+													// fStatus stands for filing status.
+
+// Variables used to count the standard deductions.
+//NBLIND is times blind option is marked and so as NOVR65 is for ae over 65.
+double NBLIND, NOVR65;
+
+void filingStatA1() // function defined here which will ask the user for input FOR FILING STATUS
+{
+	char bornBeforeSD[SIZE], blind[SIZE], SbornBeforeSD[SIZE], Sblind[SIZE];// char declared arrays to hold strings of input
+
+
+	cout << "Filing Status (type Single or Married)?\n";
+	cin.getline(fStatus, SIZE);// it is used to get the filing status.
+
+	if (_stricmp(fStatus, "Single") == 0) // if statement used to compare if input is same as "Single" with the help of _stricmp member functions.
+	{										// main filer = Single filer.	
+		NBLIND = 0; // accumulators used to keep count of blind and born options.
+		NOVR65 = 0;
+
+		cout << "Were you born before January 2, 1955? (Type Yes or No)\n";
+		cin.getline(bornBeforeSD, SIZE);
+		if (_stricmp(bornBeforeSD, "Yes") == 0) // if statement used to check if the person was born before 1955.
+		{
+			bornx = 'X'; // if yes, it will assign upper X to bornx so that it can mark the page 1 when populated.
+			NOVR65++; // increment
+		}
+
+		cout << "Are you blind? Type (Yes or No)\n";
+		cin.getline(blind, SIZE);
+		if (_stricmp(blind, "yes") == 0) // if statement used to check whether blind or not.
+		{
+			blindx = 'X';
+			NBLIND++; // increment
+		}
+	}
+	else if (_stricmp(fStatus, "Married") == 0) // else if used for Married filing
+	{
+		NOVR65 = 0; // accumulatoes used.
+		NBLIND = 0;
+
+		cout << "Were you born before January 2, 1955? (Type Yes or No)\n";
+		cin.getline(bornBeforeSD, SIZE);
+
+		if (_stricmp(bornBeforeSD, "Yes") == 0)// if condition statement used for assigning X so that bornx can be used for page 1
+		{
+			bornx = 'X';
+			NOVR65++; // incrementing
+		}
+		cout << "Are you blind? Type (Yes or No)\n";
+		cin.getline(blind, SIZE);
+		if (_stricmp(blind, "yes") == 0) //same if condition statement used for checking if blind
+		{
+			blindx = 'X';
+			NBLIND++; // incrementing
+		}
+
+		cout << "Spouse was you born before January 2, 1955? (Type Yes or No)\n";
+
+		cin.getline(SbornBeforeSD, SIZE);
+		if (_stricmp(SbornBeforeSD, "Yes") == 0) // here "S" indicates the spouse variables.
+		{
+			Sbornx = 'X';
+			NOVR65++; // incrementing
+		}
+		cout << "Spouse is blind? Type (Yes or No)\n";
+		cin.getline(Sblind, SIZE);
+		if (_stricmp(Sblind, "yes") == 0)
+		{
+			Sblindx = 'X';
+			NBLIND++; //incrementing
+		}
+	}
+	else
+	{
+		cout << "Input is not valid.\n";
+	}
+}
+
+void filingStatA2() // function used for page 2 (ALSO FOR PROJECT PART 2)
+{
+	cout << "Please enter the following fields via keyboard.\n"; // asking the user for data input.
+	cout << "(1) Wages?\n";
+	cin >> filingPage2.oneWages;
+	cout << "(2a) Tax-Exempt Interest?\n";
+	cin >> filingPage2.twoA;
+	cout << "(2b) Taxable Interest?\n";
+	cin >> filingPage2.twoB;
+	cout << "(3a) Qualified Dividends?\n";
+	cin >> filingPage2.threeA;
+	cout << "(3b) Ordinary Dividends?\n";
+	cin >> filingPage2.threeB;
+	cout << "(3c) Capital Gain Distribution (or loss)?\n";
+	cin >> filingPage2.threeC;
+	cout << "(4a) IRAs. Pensions, & Annuities?\n";
+	cin >> filingPage2.fourA;
+	if (filingPage2.fourA > 0)
+	{
+		cout << "(4b) Taxable Amount?\n";
+		cin >> filingPage2.fourB;
+	}
+
+	cout << "(5a) Social Security Benefits?\n";
+	cin >> filingPage2.fiveA;
+	if (filingPage2.fiveA > 0)
+	{
+		cout << "(5b) Taxable Amount?\n";
+		cin >> filingPage2.fiveB;
+	}
+
+	cout << "(7a) Adjustments to Income?\n";
+	cin >> filingPage2.sevenA;
+
+	cout << endl;
+	cout << endl;
+	cout << endl;
+
+	cout << "*************************************************************************\n";
+	cout << " Individual Income Tax Return" << setw(44) << "Page 2\n";								// manipulator used
+	cout << "*************************************************************************\n";
+	cout << endl;
+
+	cout << "1  Wages ...................................................... " << filingPage2.oneWages << endl;
+	cout << "2a Tax - Exempt Interest ....................... " << filingPage2.twoA << endl;
+	cout << "2b Taxable Interest ........................................... " << filingPage2.twoB << endl;
+	cout << "3a Qualified Dividends ......................... " << filingPage2.threeA << endl;
+	cout << "3b Ordinary Dividends ......................................... " << filingPage2.threeB << endl;
+	cout << "3c Capital Gain Distribution(or loss).......................... " << filingPage2.threeC << endl;
+	cout << "4a IRAs.Pensions, & Annuities .................. " << filingPage2.fourA << endl;
+	cout << "4b Taxable Amount ............................................. " << filingPage2.fourB << endl;
+	cout << "5a Social Security Benefits .................... " << filingPage2.fiveA << endl;
+	cout << "5b Taxable Amount ............................................. " << filingPage2.fiveB << endl;
+	cout << endl;
+	cout << "6  Total Income[1 + 2b + 3b + 4b + 5b] ........................ " << Six() << endl; // Function used to calculate line six (PART 2)
+	cout << endl;
+	cout << "7a Adjustments to Income ....................... " << filingPage2.sevenA << endl;
+	cout << "7b Adjusted Gross Income(Line 6 - Line 7a) .................... " << Seven7b() << endl; // Function for (PART 2)
+	cout << endl;
+	cout << "8  Standard Deduction ......................................... " << StandardDeduct() << endl; // Function for (PART 2)
+	cout << "[Single:12000; Married: 24000 or Standard Deduction Chart]\n";
+	cout << endl;
+	cout << "10 Taxable Income.Line7b - Line8, if less than 0, enter 0 ..... " << Ten10() << endl; // Function for (PART 2)
+	cout << endl;
+	cout << "11 Tax ........................................................ " << fixed << setprecision(2) << TaxBracket() << endl; // Function used for (PART 2)
+	cout << "[from Tax Table or Qualified Dividends and Capital Gain Tax Worksheet]\n";												// Manipulators used for 2 digits after decimal precision.
+	cout << endl;
+	cout << "=========================================================================\n";
+
+}
+
+int main() // main function
+{
+	filingStatA1();
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	filingStatA2();
+	return 0;
+}
+
+double StandardDeduct() // function to calculate standard deduction.
+{
+	double SDline8 = 0; // it will return a double data type for line 8
+	double numOfboxes = NBLIND + NOVR65; // this will check how many boxes were marked.
+	if (_stricmp(fStatus, "Single") == 0) // this algorithm matches the number of boxes (if any) marked,
+	{										// to determine which value to put in line 8.
+		if (numOfboxes == 0)
+		{
+			SDline8 = 12000;
+		}
+		else if (numOfboxes == 1)
+		{
+			SDline8 = 13600;
+		}
+		else if (numOfboxes == 2)
+		{
+			SDline8 = 15200;
+		}
+	}
+	else if (_stricmp(fStatus, "Married") == 0)
+	{
+		if (numOfboxes == 0)
+		{
+			SDline8 = 24000;
+		}
+		else if (numOfboxes == 1)
+		{
+			SDline8 = 25300;
+		}
+		else if (numOfboxes == 2)
+		{
+			SDline8 = 26600;
+		}
+		else if (numOfboxes == 3)
+		{
+			SDline8 = 27900;
+		}
+		else if (numOfboxes == 4)
+		{
+			SDline8 = 29200;
+		}
+	}
+	return SDline8;
+}
+
+double TaxBracket() // function to use the algorith to calculate the tax due by using tax brackets.
+{
+
+	double TB10 = 0, TB12 = 0, TB22 = 0, TB24 = 0, TB32 = 0, TB35 = 0, TB37 = 0, // TB's with number represent the brackets, such as,
+		tenMinusTB10, tenMinusTB12, tenMinusTB22, tenMinusTB24,						// TB10, 10 means Tax bracket 10% and so on.
+		tenMinusTB32, tenMinusTB35,													// tenMinusTB's will keep the count of decreasing remaining taxable income 
+		TAXDUE,																	//TAXDUE will sum up the TB's to get the total.
+		taxableIncome = Ten10(),												// taxableIncome being assigned line 10 value.
+		remainIncome = 0;														// remainIncome is used to compare and assign values of tenMinusTB's as 
+																				// the algorithm breaks the income apart by decrementing.
+	if (_stricmp(fStatus, "Single") == 0)
+	{
+		if (taxableIncome >= 0) // to make sure value is greater than or equal to zero
+		{
+			if (taxableIncome < 9525) // first if's in this algorithm will check if values are less than the tax bracket.
+			{								// if so, then it will assign 0 to 'remainIncome' so that program does not iterate through the rest 
+				TB10 = (taxableIncome * 0.10);		// of the code.
+				remainIncome = 0;
+			}
+			else								// else statement for if value is greater than the tax bracket.
+			{
+				tenMinusTB10 = taxableIncome - 9525;	// this line is subtracting the value of bracket and assigning to tenMinusTB10.
+				TB10 = ((taxableIncome - tenMinusTB10) * 0.10); // 0.10 equals 10 / 100 to calculate percentage.
+				remainIncome = tenMinusTB10;					// by subtracting taxableIncome (initial amount) with tenMinusTB10 will
+			}													// give us the diffrence of the specific bracket and calculate the percent of that difference.
+		}
+		if (remainIncome > 0)				// as you can see, now we are comparing remainIncome to see if the taxable amount is larger than
+		{									// the first bracket so that code can iterate through the rest
+			if (remainIncome < 29175)
+			{
+				TB12 = remainIncome * 0.12;
+				remainIncome = 0;
+			}
+			else
+			{
+				tenMinusTB12 = remainIncome - 29175;
+				TB12 = (remainIncome - tenMinusTB12) * 0.12;
+				remainIncome = tenMinusTB12;
+			}
+		}
+		if (remainIncome > 0)
+		{
+			if (remainIncome < 43800)
+			{
+				TB22 = remainIncome * 0.22;
+				remainIncome = 0;
+			}
+			else
+			{
+				tenMinusTB22 = remainIncome - 43800;
+				TB22 = (remainIncome - tenMinusTB22) * 0.22;
+				remainIncome = tenMinusTB22;
+			}
+		}
+		if (remainIncome > 0)
+		{
+			if (remainIncome < 75000)
+			{
+				TB24 = remainIncome * 0.24;
+				remainIncome = 0;
+			}
+			else
+			{
+				tenMinusTB24 = remainIncome - 75000;
+				TB24 = (remainIncome - tenMinusTB24) * 0.24;
+				remainIncome = tenMinusTB24;
+			}
+		}
+		if (remainIncome > 0)
+		{
+			if (remainIncome < 42500)
+			{
+				TB32 = remainIncome * 0.32;
+				remainIncome = 0;
+			}
+			else
+			{
+				tenMinusTB32 = remainIncome - 42500;
+				TB32 = (remainIncome - tenMinusTB32) * 0.32;
+				remainIncome = tenMinusTB32;
+			}
+		}
+		if (remainIncome > 0)
+		{
+			if (remainIncome < 300000)
+			{
+				TB35 = remainIncome * 0.35;
+				remainIncome = 0;
+			}
+			else
+			{
+				tenMinusTB35 = remainIncome - 300000;
+				TB35 = (remainIncome - tenMinusTB35) * 0.35;
+				remainIncome = tenMinusTB35;
+			}
+		}
+		if (remainIncome > 0)
+		{
+			TB37 = remainIncome * 0.37;
+			cout << remainIncome << endl;
+		}
+	}
+	if (_stricmp(fStatus, "Married") == 0)
+	{
+		{
+			if (taxableIncome >= 0)
+			{
+				if (taxableIncome < 19050)
+				{
+					TB10 = (taxableIncome * 0.10);
+					taxableIncome = 0;
+				}
+				else
+				{
+					tenMinusTB10 = taxableIncome - 19050;
+					TB10 = ((taxableIncome - tenMinusTB10) * 0.10);
+					remainIncome = tenMinusTB10;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				if (remainIncome < 58350)
+				{
+					TB12 = remainIncome * 0.12;
+					remainIncome = 0;
+				}
+				else
+				{
+					tenMinusTB12 = remainIncome - 58350;
+					TB12 = (remainIncome - tenMinusTB12) * 0.12;
+					remainIncome = tenMinusTB12;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				if (remainIncome < 87600)
+				{
+					TB22 = remainIncome * 0.22;
+					remainIncome = 0;
+				}
+				else
+				{
+					tenMinusTB22 = remainIncome - 87600;
+					TB22 = (remainIncome - tenMinusTB22) * 0.22;
+					remainIncome = tenMinusTB22;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				if (remainIncome < 150000)
+				{
+					TB24 = remainIncome * 0.24;
+					remainIncome = 0;
+				}
+				else
+				{
+					tenMinusTB24 = remainIncome - 150000;
+					TB24 = (remainIncome - tenMinusTB24) * 0.24;
+					remainIncome = tenMinusTB24;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				if (remainIncome < 85000)
+				{
+					TB32 = remainIncome * 0.32;
+					remainIncome = 0;
+				}
+				else
+				{
+					tenMinusTB32 = remainIncome - 85000;
+					TB32 = (remainIncome - tenMinusTB32) * 0.32;
+					remainIncome = tenMinusTB32;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				if (remainIncome < 200000)
+				{
+					TB35 = remainIncome * 0.35;
+					remainIncome = 0;
+				}
+				else
+				{
+					tenMinusTB35 = remainIncome - 200000;
+					TB35 = (remainIncome - tenMinusTB35) * 0.35;
+					remainIncome = tenMinusTB35;
+				}
+			}
+			if (remainIncome > 0)
+			{
+				TB37 = remainIncome * 0.37;
+				remainIncome = 0;
+			}
+		}
+	}
+	return TAXDUE = TB10 + TB12 + TB22 + TB24 + TB32 + TB35 + TB37; // returning the total tax due.
+}
+
+double Six() // function for line six
+{
+	double line6 = filingPage2.oneWages + filingPage2.twoB + filingPage2.threeB + filingPage2.fourB + filingPage2.fiveB;
+	return line6;
+}
+
+double Seven7b() // function for line seven
+{
+	double line7b = Six() - filingPage2.sevenA;
+	return line7b;
+}
+
+double Ten10() // function for line 10.
+{
+	double line10 = Seven7b() - StandardDeduct();
+	return line10;
+}
